@@ -1,0 +1,129 @@
+/**/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:  #d3f0e5/*#9EDEC6 *//*B2D2A4 /*#CDD193*/ ;
+	font-family: Tahoma, serif;
+	margin: 1%;
+	color: #08313A;
+}
+
+/*формат для заголовка и footer*/
+header, footer {
+	/*margin: 1%;*/
+	padding: 2%;
+	text-align: center;
+	background: #3EB489;
+	background: linear-gradient(#5da28d/*#3EB489*/ 45%, #a0cdb5);
+}
+
+/*формат для ссылок в навигации*/
+header a {
+	text-decoration: none;
+	display: inline-block;
+	line-height: 45px;
+	width: 15%;
+	height: 45px;
+	background-color: #e5b936/*#F1C0B9*/;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	border-radius: 8px;
+	font-size: 150%;
+	color: #08313A;
+	text-transform: uppercase;
+	transition: transform .5s linear .5s;
+}
+a:hover{
+	transform: scale(1.5,1.5);
+}
+/*margin для section*/
+section{
+	margin-top: 20px;
+}
+/*скрыть картинку и сделать так что бы она появлялавь когда наводят на Привет!*/
+#aboutMe img{
+	display: none;
+}
+#hi {
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 40px;
+	height: 40px;
+	width: 10%;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #e5b936;
+	transition: transform 1s;
+	font-size: 120%;
+}
+#hi:hover {
+	cursor: pointer;
+	transform: rotateY(360deg);
+}
+#hi:hover ~ img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+/*формат для заголовков h2 и р находящихся в section*/
+section h2{
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	text-align: center;
+}
+section p {
+	font-size: 130%;
+	padding: 10px;
+}
+/*формат для таблицы образование*/
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 30px;
+	color: #06425c;
+	border-spacing: 0;
+	border: 3px solid #08313A;
+	border-radius: 0 0 25px 25px;
+	font-size: 120%;
+}
+tr:first-child>th{
+	border-bottom: 3px solid #08313A;
+}
+tr:nth-child(odd){
+	background: #a0cdb5;
+}
+tr:nth-child(even){
+	background: #cdbb79;
+}
+caption {
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #47904c;
+	color: #d9eaa6;
+	font-size: 130%;
+	-webkit-border-radius: 25px 25px 0  0;
+	border-radius: 25px 25px 0 0;
+}
+
+tr:last-child>td:first-child {
+	border-radius: 0 0 0 25px;
+}
+tr:last-child>td:last-child {
+	border-radius: 0 0 25px 0;
+}
+th, td {
+	/*height: 60px;*/
+	width: 10%;
+	padding: 20px;
+}
+/*padding for p in #hobby*/
+#hobby p {
+	padding-bottom: 20px;
+}
