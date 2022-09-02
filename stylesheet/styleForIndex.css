@@ -9,6 +9,9 @@ body{
 	margin: 1%;
 	color: #08313A;
 }
+a {
+	color: black;
+}
 
 /*формат для заголовка и footer*/
 header, footer {
@@ -37,7 +40,7 @@ header a {
 	transition: transform .5s linear .5s;
 }
 a:hover{
-	transform: scale(1.5,1.5);
+	transform: scale(1.2,1.2);
 }
 /*margin для section*/
 section{
@@ -89,7 +92,6 @@ table {
 	color: #06425c;
 	border-spacing: 0;
 	border: 3px solid #08313A;
-	border-radius: 0 0 25px 25px;
 	font-size: 120%;
 }
 tr:first-child>th{
